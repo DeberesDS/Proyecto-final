@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>G.H.C</title>
+	<link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/templatemo-xtra-blog.css" rel="stylesheet">
+<!--
+    
+TemplateMo 553 Xtra Blog
+
+https://templatemo.com/tm-553-xtra-blog
+
+-->
+</head>
+<body>
+	<header class="tm-header" id="tm-header">
+        <div class="tm-header-wrapper">
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="tm-site-header">
+                <div><img src="Logo-removebg-preview.png" width="350px"></div>            
+                <h1 class="text-center">G.H.C</h1>
+            </div>
+            <nav class="tm-nav" id="tm-nav">            
+                <ul>
+                    <li class="tm-nav-item "><a href="index.html" class="tm-nav-link">
+                     
+                        Home
+                    </a></li>
+                    
+                    
+                    <li class="tm-nav-item "><a href="a.html" class="tm-nav-link">
+                        
+                        Unidad 1: HTML
+                    </a></li>
+                    <li class="tm-nav-item "><a href="Index2.html" class="tm-nav-link">
+                        
+                        Unidad 2: CSS
+                    </a></li>
+                </ul>
+            </nav>
+            <div class="tm-mb-65">
+                
+            </div>
+            <p class="tm-mb-80 pr-5 text-white">
+                G.H.C es una guia en la cual se enseña lo basico en lenguajes de programacion de sitios webs.
+            </p>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <main class="tm-main">
+            <!-- Search form -->
+                     
+            <div class="row tm-row">
+                
+            </div>
+            <div class="row tm-row">
+                <div class="col-lg-8 tm-post-col">
+                    <div class="tm-post-full">                    
+                        <div class="mb-4">
+                            <h2 class="pt-2 tm-color-primary tm-post-title"><strong>Propiedad de posicion</strong></h2>
+                            
+                            <p style="color: black;">
+                                Position significa posición en español. El posicionamiento predeterminado de cada elemento en HTML es estático, o sea, tiene la posición de valor: static, incluso si este valor no ha sido declarado. Todo elemento estático se coloca alineado con la parte superior izquierda en el cuerpo del documento. No se puede cambiar su posición. Esta es la posición 0 de un elemento en el cuerpo del documento, según las coordenadas HTML.
+                                </p>
+ </p>
+</p>
+                                <h1 class="pt-2 tm-color-primary tm-post-title">¿Cómo puedo cambiar la posición de un elemento?</h1>
+                               <p> Para cambiar la posición de un elemento, primero debemos modificar su valor por defecto: static. Para la propiedad position, es posible asignar 5 valores, que son: static, fixed, sticky, relative y absolute.</p>
+
+                             <p style="color: black;"> Al cambiar la Position, también podemos usar otras cuatro propiedades auxiliares que son: top, bottom, left y right. Solo position static ignora el valor de estas propiedades. Se pueden utilizar con todos los demás tipos de positions lo que permite definir la posición de un elemento. Las referencias superior, inferior, izquierda y derecha pueden cambiar según el tipo de position aplicada.</p>
+                              
+                            </p>
+                            <h1 style="color: #099; font-size: 40px;" ><strong> Static:</strong></h1>
+                            <p>La posición static es la más utilizada de todas, porque, como se dijo anteriormente, este es el valor que viene por defecto cuando creamos elementos en HTML. Su comportamiento, como su nombre indica, es el de ser estático. El simplemente fluye junto con los otros elementos de la página normalmente, tomando como referencia la parte superior izquierda.</p>
+                            <p>Este elemento no acepta propiedades auxiliares top, bottom, left e right. En el ejemplo de abajo, incluso aplicando el código de posición: static e top: 20px, el elemento no se mueve 20 píxeles de arriba a abajo. Permanece estático siendo alineado en la parte superior izquierda.</p>
+                            <p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="dPbazdK" data-pen-title="Untitled" data-editable="true" data-user="Mauricio-Mendoza-Cede-o" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                                <span>See the Pen <a href="https://codepen.io/Mauricio-Mendoza-Cede-o/pen/dPbazdK">
+                                Untitled</a> by Mauricio Mendoza Cedeño (<a href="https://codepen.io/Mauricio-Mendoza-Cede-o">@Mauricio-Mendoza-Cede-o</a>)
+                                on <a href="https://codepen.io">CodePen</a>.</span>
+                              </p>
+                              <script async src="https://public.codepenassets.com/embed/index.js"></script>
+                              <h1 style="color: #099; font-size: 40px;" ><strong>Fixed:</strong></h1>
+                        <p style="color: black;">La posición fixed hace que el elemento que tiene esta propiedad no se mueva en la pantalla. Incluso si una página tiene desplazamiento (scroll). Al usar el desplazamiento hacia la izquierda y hacia la derecha, o hacia arriba y hacia abajo, el elemento no se mueve.</p>
+                              <p>Tenga en cuenta que, cuando se aplica bottom: 0 % y right: 5 %, el elemento está a un 0 % de la parte inferior de la pantalla, o sea, pegado en la parte inferior y a un 5 % del lado derecho.</p>
+                              <p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="yyBZoKJ" data-pen-title="Untitled" data-editable="true" data-user="Mauricio-Mendoza-Cede-o" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                                <span>See the Pen <a href="https://codepen.io/Mauricio-Mendoza-Cede-o/pen/yyBZoKJ">
+                                Untitled</a> by Mauricio Mendoza Cedeño (<a href="https://codepen.io/Mauricio-Mendoza-Cede-o">@Mauricio-Mendoza-Cede-o</a>)
+                                on <a href="https://codepen.io">CodePen</a>.</span>
+                              </p>
+                              <script async src="https://public.codepenassets.com/embed/index.js"></script>
+                          
+                              <h1 style="color: #099; font-size: 40px;" ><strong>Sticky:</strong></h1>
+                            <p style="color: black;">La posición sticky, que en español significa pegajoso o grudento, es similar a fijo, sin embargo, su diferencia es que, en vez de ser fijo en relación a la pantalla, es fijo en relación al desplazamiento de la página. </p>
+                            <p>Este tipo de posición siempre se usa junto con propiedades auxiliares, ya que necesita una posición de referencia. Abajo es posible comprobarlo. Aplicamos top: 0%; left: 0%, lo que hace que el elemento suba al desplazarse hacia abajo, sin embargo, cuando llega al borde de la parte superior de la pantalla, se “pega”, y lo mismo ocurre con el lado izquierdo, cuando arrastramos la barra de desplazamiento hacia la derecha, el elemento llega al borde de la pantalla del lado izquierdo, aunque, también se “pega” al borde de este lado de la pantalla. El elemento vuelve a su posición inicial cuando volvemos a la barra de desplazamiento como antes.</p>
+                            <img src="sticky.gif">
+
+                            <h1 style="color: #099; font-size: 40px;" ><strong>Relative:</strong></h1>
+                            <p>La posición relative, que en español significa relativa, se utiliza cuando queremos cambiar la posición de un elemento con referencia a su posición inicial. Cuando aplicamos esta propiedad a un elemento, este no cambiará de posición, se posicionará en su posición de referencia. Sin embargo, cuando aplicamos top: 50px e left: 50px al elemento, como en el ejemplo abajo, su posición cambia 50 píxeles de arriba a abajo y de izquierda a derecha con respecto a su posición inicial.</p>
+                            <p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="vEBbJjQ" data-pen-title="Untitled" data-editable="true" data-user="Mauricio-Mendoza-Cede-o" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                                <span>See the Pen <a href="https://codepen.io/Mauricio-Mendoza-Cede-o/pen/vEBbJjQ">
+                                Untitled</a> by Mauricio Mendoza Cedeño (<a href="https://codepen.io/Mauricio-Mendoza-Cede-o">@Mauricio-Mendoza-Cede-o</a>)
+                                on <a href="https://codepen.io">CodePen</a>.</span>
+                              </p>
+                              <script async src="https://public.codepenassets.com/embed/index.js"></script>
+                              <h1 style="color: #099; font-size: 40px;" ><strong>Absolute:</strong></h1>
+                              <p>La posición absolute, o posicionamiento absoluto en español , tiene dos comportamientos diferentes. El primero es cuando el elemento con esta propiedad tiene un elemento padre con un valor que no es static. En este caso, tendrá como referencia este elemento padre para ser posicionado. Cada elemento padre que tenga cualquier valor de position, excepto el static, será la referencia para posicionar el elemento hijo absoluto!</p>
+                              <p>El segundo comportamiento es cuando el elemento con position absolute no tiene elemento padre, o este elemento padre tiene una position static. En esta situación, ignorará estos elementos y se posicionará desde la parte superior izquierda del documento, pudiendo incluso superponerlos. O sea, es importante usar el absolute asegurándose de que sea necesario (no que no sea necesario para los otros valores), ya que puede desalinear el diseño de la página.</p>
+                              <p>Para entender en la práctica cómo funciona, tenemos, en el siguiente ejemplo, el elemento padre, que es una caja verde, siendo una position relative, posicionado a 150 píxeles de la parte superior de su posición inicial, y su elemento hijo, que es el caja azul, siendo una posición: absoluta con valores top: 50px e left: 50px. Puede ver que el elemento hijo está en el borde superior del elemento padre como referencia, colocado a 50 píxeles desde la parte superior y 50 píxeles a la izquierda:
+                                <p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="LEPqjrm" data-pen-title="Untitled" data-editable="true" data-user="Mauricio-Mendoza-Cede-o" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                                    <span>See the Pen <a href="https://codepen.io/Mauricio-Mendoza-Cede-o/pen/LEPqjrm">
+                                    Untitled</a> by Mauricio Mendoza Cedeño (<a href="https://codepen.io/Mauricio-Mendoza-Cede-o">@Mauricio-Mendoza-Cede-o</a>)
+                                    on <a href="https://codepen.io">CodePen</a>.</span>
+                                  </p>
+                                  <script async src="https://public.codepenassets.com/embed/index.js"></script>
+                              </p>
+                              <p>Ya en el siguiente ejemplo, el elemento padre no tiene la position declarada, o sea, el es un position static. Su elemento hijo tiene una position absolute. En este caso, el elemento hijo ignora la posición del elemento padre y se alinea 50 píxeles desde la parte superior e izquierda del documento.                              </p>
+                              <p class="codepen" data-height="300" data-default-tab="result" data-slug-hash="bNbzrjG" data-pen-title="Untitled" data-editable="true" data-user="Mauricio-Mendoza-Cede-o" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                                <span>See the Pen <a href="https://codepen.io/Mauricio-Mendoza-Cede-o/pen/bNbzrjG">
+                                Untitled</a> by Mauricio Mendoza Cedeño (<a href="https://codepen.io/Mauricio-Mendoza-Cede-o">@Mauricio-Mendoza-Cede-o</a>)
+                                on <a href="https://codepen.io">CodePen</a>.</span>
+                              </p>
+                              <script async src="https://public.codepenassets.com/embed/index.js"></script>
+                        </div>
+                        
+
+                    </div>
+                </div>
+                <aside class="col-lg-4 tm-aside-col">
+                    <div class="tm-post-sidebar">
+                        <hr class="mb-3 tm-hr-primary">
+                        
+                        <hr class="mb-3 tm-hr-primary">
+                        <h2 class="tm-mb-40 tm-post-title tm-color-primary">Relacioado</h2>
+                        <a href="#" class="d-block tm-mb-40">
+                            <figure>
+                                <img src="html-tags-list.svg" alt="Image" class="mb-3 img-fluid">
+                                <figcaption class="tm-color-primary">Etiquetas HTML</figcaption>
+                            </figure>
+                        </a>
+                        <a href="Q es HTML.html" class="d-block tm-mb-40">
+                            <figure>
+                                <img src="que-es-h.jpg" alt="Image" class="mb-3 img-fluid">
+                                <figcaption class="tm-color-primary">Que es HTML?</figcaption>
+                            </figure>
+                        </a>
+                        <a href="#" class="d-block tm-mb-40">
+                            <figure>
+                                <img src="t.png" alt="Image" class="mb-3 img-fluid">
+                                <figcaption class="tm-color-primary">Uso de otros lenguajes de programacion web</figcaption>
+                            </figure>
+                        </a>
+                    </div>                    
+                </aside>
+            </div>
+            <footer class="row tm-row">
+                
+            </footer>
+        </main>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/templatemo-script.js"></script>
+</body>
+</html>
